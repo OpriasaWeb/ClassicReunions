@@ -34,35 +34,41 @@
             <label for="numberOfGuests" class="form-label mt-4">Number of guests</label>
             <input class="form-control mt-2" type="text" id="numberOfGuests" aria-label="default input example">
 
-            <label for="cocktails" class="form-label mt-4">Cocktails</label>
-            <select class="form-select" id="cocktails" aria-label="Default select example">
-              <option selected value="">..</option>
-              <option value="Y">Yes</option>
-              <option value="N">No</option>
-            </select>
+            <div class="row">
+              <div class="col-6">
+                <label for="cocktails" class="form-label mt-4">Cocktails</label>
+                <select class="form-select" id="cocktails" aria-label="Default select example">
+                  <option selected disabled value="">..</option>
+                  <option value="Y">Yes</option>
+                  <option value="N">No</option>
+                </select>
 
-            <label for="appetizers" class="form-label mt-4">Appetizers</label>
-            <select class="form-select" id="appetizers" aria-label="Default select example">
-              <option selected value="">..</option>
-              <option value="Y">Yes</option>
-              <option value="N">No</option>
-            </select>
+                <label for="appetizers" class="form-label mt-4">Appetizers</label>
+                <select class="form-select" id="appetizers" aria-label="Default select example">
+                  <option selected disabled value="">..</option>
+                  <option value="Y">Yes</option>
+                  <option value="N">No</option>
+                </select>
+              </div>
+              <div class="col-6">
+                <label for="dinner" class="form-label mt-4">Dinner</label>
+                <select class="form-select" id="dinner" aria-label="Default select example">
+                  <option selected disabled value="">..</option>
+                  <option value="Y">Yes</option>
+                  <option value="N">No</option>
+                </select>
 
-            <label for="dinner" class="form-label mt-4">Dinner</label>
-            <select class="form-select" id="dinner" aria-label="Default select example">
-              <option selected value="">..</option>
-              <option value="Y">Yes</option>
-              <option value="N">No</option>
-            </select>
-
-            <label for="band" class="form-label mt-4">Band</label>
-            <select class="form-select" id="band" aria-label="Default select example">
-              <option selected value="">..</option>
-              <option value="Y">Yes</option>
-              <option value="N">No</option>
-            </select>
+                <label for="band" class="form-label mt-4">Band</label>
+                <select class="form-select" id="band" aria-label="Default select example">
+                  <option selected disabled value="">..</option>
+                  <option value="Y">Yes</option>
+                  <option value="N">No</option>
+                </select>
+              </div>
+            </div>
 
             <button type="button" id="submit" class="btn btn-primary mt-4 float-end">Submit</button>
+
           </div>
         </div>
       </div>
