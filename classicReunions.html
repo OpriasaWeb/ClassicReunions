@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <title>Classic Reunions</title>
+</head>
+<body>
+  
+  <div class="container pt-5">
+    <p class="fs-4 mb-4">Classic Reunions</p>
+    <p class="fs-6 mb-4"></p>
+    <div class="row">
+      <div class="card m-auto" style="width: 50rem;">
+        <div class="card-body">
+          <h5 class="card-title">Please fill-in</h5>
+          <div class="col-12">
+            <label for="contractNumber" class="form-label mt-4">Contract Number</label>
+            <input class="form-control mt-2" type="text" id="contractNumber" aria-label="default input example">
+            <label for="firstName" class="form-label mt-4">First name</label>
+            <input class="form-control mt-2" type="text" id="firstName" aria-label="default input example">
+            <label for="lastName" class="form-label mt-4">Last name</label>
+            <input class="form-control mt-2" type="text" id="lastName" aria-label="default input example">
+            <label for="reunionDate" class="form-label mt-4">Reunion party date</label>
+            <input class="form-control mt-2" type="date" id="reunionDate"  aria-label="default input example">
+            <label for="numberOfGuests" class="form-label mt-4">Number of guests</label>
+            <input class="form-control mt-2" type="text" id="numberOfGuests" aria-label="default input example">
+
+            <label for="cocktails" class="form-label mt-4">Cocktails</label>
+            <select class="form-select" id="cocktails" aria-label="Default select example">
+              <option selected value="">..</option>
+              <option value="Y">Yes</option>
+              <option value="N">No</option>
+            </select>
+
+            <label for="appetizers" class="form-label mt-4">Appetizers</label>
+            <select class="form-select" id="appetizers" aria-label="Default select example">
+              <option selected value="">..</option>
+              <option value="Y">Yes</option>
+              <option value="N">No</option>
+            </select>
+
+            <label for="dinner" class="form-label mt-4">Dinner</label>
+            <select class="form-select" id="dinner" aria-label="Default select example">
+              <option selected value="">..</option>
+              <option value="Y">Yes</option>
+              <option value="N">No</option>
+            </select>
+
+            <label for="band" class="form-label mt-4">Band</label>
+            <select class="form-select" id="band" aria-label="Default select example">
+              <option selected value="">..</option>
+              <option value="Y">Yes</option>
+              <option value="N">No</option>
+            </select>
+
+            <button type="button" id="submit" class="btn btn-primary mt-4 float-end">Submit</button>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="result mt-4">
+        <div id="rent">
+          
+        </div> 
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="./costIsNoObject.js"></script>
+</body>
+</html>
+
+
