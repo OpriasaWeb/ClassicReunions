@@ -15,7 +15,6 @@ Number of guests expected at the reunion
 Indicators of whether selected options include cocktails, appetizers, dinner, and a band
 
 
-
 Display output as follows:
 
 If the contract number is not between 10000 and 99999 inclusive, issue an error message and end the program.
@@ -28,7 +27,9 @@ Display all the entered data along with the total fee for the reunion, which is 
 
 $5 per person base price
 
-An additional $12 per person for appetizers only, $15 per person for cocktails only, and $19 person for dinner only. If the customer selects appetizers and cocktails, but no dinner, the cost is $22 per person.
+An additional $12 per person for appetizers only, $15 per person for cocktails only, and $19 person for dinner only. 
+
+If the customer selects appetizers and cocktails, but no dinner, the cost is $22 per person.
 
 If the customer selects cocktails and dinner, but no appetizers, the cost is $26 per person. 
 
